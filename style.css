@@ -1,0 +1,131 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+.site-header {
+  background-color: #ffffff;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  color: #0077ff;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a, #1f2937);
+}
+
+.hero__content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero__btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  background: #ffffff;
+  color: #0f172a;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.hero__btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+/* Content Section */
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+}.resume-link{
+display:inline-block;
+padding:15px 25px;
+margin-top:20px;
+border:2px solid black;
+background-color:#e0e0e0;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+color:black;
+}
+
+.resume-link:hover{
+background-color:#cfcfcf;
+}.interest-list{
+list-style-type:square;
+margin-top:20px;
+padding-left:30px;
+}
+
+.interest-list li{
+font-size:18px;
+color:#333;
+margin-bottom:10px;
+}
+
+.interest-list li:hover{
+color:#0077cc;
+}
